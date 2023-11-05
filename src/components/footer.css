@@ -1,0 +1,86 @@
+footer {
+    background-color: rgb(36, 36, 36);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+}
+
+.footer-politicas a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(104, 104, 104);
+}
+
+.footer-politicas h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.text-footer-information h3 {
+    font-size: 14px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -35px;
+}
+
+.text-footer-information a {
+    font-size: 12px;
+    color: rgb(104, 104, 104);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.text-footer-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-icons a {
+ color:  rgb(104, 104, 104);
+}
+
+
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 5px;
+}
+
+.img_footer {
+    width: 30px;
+}
+
+.img_footer:hover {
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px; 
+    color: rgb(104, 104, 104);
+} 
+
+hr { 
+    border: none; 
+    height: 1px; 
+    color: #333; 
+    background-color: #333; 
+}
+
+

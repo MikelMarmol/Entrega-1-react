@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(248, 219, 186);
+}
+.productos_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+
+.productos_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.producto {
+    background-color: rgba(255, 145, 0, 0.922);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 40%;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: brown;
+    padding: 20px 5px 20px 5px;
+}
+
+.producto h3 {
+    width: 90%;
+    text-align: center;
+}
+
+
+.producto a {
+    background-color: brown;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.producto a:hover {
+    background-color: rgb(255, 2, 2);
+    padding: 5px 10px 5px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 700;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+
+.card_img {
+    width: 95%;
+    border-radius: 20px;
+    border: 2px solid brown
+}
+
+.btn_mas {
+    margin-top: 50px;
+    background-color: brown;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.btn_mas:hover {
+    background-color: rgb(255, 2, 2);
+    padding: 5px 10px 5px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 700;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+}
+  

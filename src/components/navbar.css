@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    
+}
+.ulnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 140px;
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+.navcontainer{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    height: 85px;
+    background-color: rgb(255, 145, 0);
+    z-index: 5;
+}
+
+.navimg {
+    width: 90px;
+}
+
+.ulnav a {
+    position: relative;
+    padding: 0;
+  }
+  
+  .ulnav a li::after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background: rgb(254, 174, 70);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.15s ease;
+    border-radius: 50px;
+  }
+  
+  .ulnav a li:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+  }
+
+  .ocultar {
+   color: orange;
+  }

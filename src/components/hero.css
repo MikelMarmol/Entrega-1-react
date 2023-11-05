@@ -1,0 +1,52 @@
+
+.herocontainer {
+    width: 100%;
+    background-color: rgb(255, 145, 0);
+}
+.herofondo {
+    background-image: url(./Coc.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    padding-top: 1px;
+}
+.containerherocard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 145, 0);
+    border-top: 5px solid rgb(23, 23, 23);
+}
+.herocard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 145, 0);
+    width: 60%;
+    margin-top: -100px;
+    border-radius: 30px;
+    border-top: 5px solid rgb(23, 23, 23); 
+}
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.parrafo {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+span {
+    font-size: 28px;
+    font-weight: 700;
+}
