@@ -4,7 +4,7 @@
     background-color: rgb(255, 145, 0);
 }
 .herofondo {
-    background-image: url(./Coc.webp);
+    background-image: url("../../public/Coc.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
